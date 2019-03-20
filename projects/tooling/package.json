@@ -38,7 +38,8 @@
   },
   "homepage": "https://github.com/martinroob/ngx-i18nsupport#readme",
   "dependencies": {
-    "@ngx-i18nsupport/ngx-i18nsupport": "^1.1.0"
+    "@ngx-i18nsupport/ngx-i18nsupport": "^1.1.0",
+    "typescript": "^3.3.4000"
   },
   "devDependencies": {
     "@angular-devkit/core": "^7.0.0",

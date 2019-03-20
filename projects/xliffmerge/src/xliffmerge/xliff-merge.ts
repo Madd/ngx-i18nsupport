@@ -356,7 +356,7 @@ export class XliffMerge {
         let lastProcessedUnit: ITransUnit = null;
         this.master.forEachTransUnit((masterTransUnit) => {
             const transUnit: ITransUnit = languageSpecificMessagesFile.transUnitWithId(masterTransUnit.id);
-
+            console.log(transUnit);
             if (!transUnit) {
                 // oops, no translation, must be a new key, so add it
                 let newUnit;
